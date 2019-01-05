@@ -14,6 +14,10 @@ function NavBar2() {
                 border: 1px solid black;
                 height: 70px;
               }
+              #NavBar2 > div {
+                width: 100%;
+                display: flex;
+              }
               #logo {
                 border-radius: 100%;
                 width: 50px;
@@ -23,7 +27,11 @@ function NavBar2() {
               }
               #listItems {
                 display: flex;
+                justify-content: center;
                 flex-direction: row;
+              }
+              #inputContainer {
+                justify-content: flex-end;
               }
               input {
                 border-style: none;
@@ -31,7 +39,11 @@ function NavBar2() {
                 border-radius: 2px;
                 width: 175px;
                 height: 35px;
-                margin-right: 20px
+                margin-right: 20px;
+
+              }
+              input:focus {
+                outline: none;
               }
               ::-webkit-input-placeholder {
                  font-size: 14px;
@@ -39,13 +51,15 @@ function NavBar2() {
               }
         `}
       </style>
-      <div id="logo"></div>
+      <div id="logoContainer">
+        <div id="logo"></div>
+      </div>
       <div id="listItems">
         <a>MEN</a>
         <a>WOMEN</a>
         <a>KIDS</a>
       </div>
-      <div>
+      <div id="inputContainer">
         <input id="seachBar" type="text" placeholder="search" />
       </div>
     </div>
