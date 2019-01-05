@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar1 from './NavBar1';
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
                 }
               `}
         </style>
+        <NavBar1 />
       </div>
     );
   }
