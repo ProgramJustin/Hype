@@ -1,0 +1,13 @@
+{
+  "env": {
+    "presets": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"]
+    },
+    "development": {
+      "plugins": ["@babel/plugin-transform-react-jsx", "@babel/plugin-syntax-dynamic-import"]
+    },
+    "test": {
+      "plugins": ["@babel/plugin-transform-react-jsx", "@babel/plugin-syntax-dynamic-import"]
+    }
+  }
+}
