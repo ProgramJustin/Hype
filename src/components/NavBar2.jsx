@@ -29,8 +29,13 @@ function NavBar2() {
                 border-style: none;
                 border: 1px solid black;
                 border-radius: 2px;
+                width: 175px;
                 height: 35px;
                 margin-right: 20px
+              }
+              ::-webkit-input-placeholder {
+                 font-size: 14px;
+                 padding: 20px;
               }
         `}
       </style>
