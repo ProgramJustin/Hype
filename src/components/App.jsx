@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar1 from './NavBar1';
 import NavBar2 from './NavBar2';
-import HeroLanding1 from './HeroLanding1';
+import LandingPage from './LandingPage';
 
 class App extends React.Component {
 
@@ -21,13 +21,13 @@ class App extends React.Component {
                   display: flex;
                   flex-direction: column;
                   border: 1px solid black;
-                  height: 100vh;
+                  height: 100%;
                 }
               `}
         </style>
         <NavBar1 />
         <NavBar2 />
-        <HeroLanding1 />
+        <LandingPage />
       </div>
     );
   }
