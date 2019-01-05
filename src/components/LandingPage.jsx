@@ -16,6 +16,9 @@ class LandingPage extends React.Component {
                   flex-direction: column;
                 }
           `}</style>
+          <div>
+            <h1>Air Jordan 1</h1>
+          </div>
         <HeroLanding1 />
       </div>
     );
