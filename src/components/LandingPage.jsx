@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroLanding1 from './HeroLanding1';
 import ListOfThreeProducts from './ListOfThreeProducts';
-
+import ListOfFourProducts from './ListOfFourProducts';
 class LandingPage extends React.Component {
 
   constructor(){
@@ -20,6 +20,7 @@ class LandingPage extends React.Component {
         <HeroLanding1 />
         <ListOfThreeProducts />
         <HeroLanding1 />
+        <ListOfFourProducts />
       </div>
     );
   }
