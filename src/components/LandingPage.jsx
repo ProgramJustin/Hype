@@ -19,6 +19,7 @@ class LandingPage extends React.Component {
           `}</style>
         <HeroLanding1 />
         <ListOfThreeProducts />
+        <HeroLanding1 />
       </div>
     );
   }
