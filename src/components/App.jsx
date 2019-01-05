@@ -10,8 +10,10 @@ class App extends React.Component {
     return (
       <div className="container">
         <style jsx global>{`
-                .container {}
-                `}
+                .container {
+                  display: flex;
+                }
+              `}
         </style>
       </div>
     );
