@@ -11,6 +11,10 @@ class App extends React.Component {
     return (
       <div className="container">
         <style jsx global>{`
+                * {
+                  margin: 0;
+                  padding: 0;
+                }
                 .container {
                   display: flex;
                   border: 1px solid black;
