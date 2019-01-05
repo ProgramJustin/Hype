@@ -21,6 +21,7 @@ class LandingPage extends React.Component {
         <ListOfThreeProducts />
         <HeroLanding1 />
         <ListOfFourProducts />
+        <HeroLanding1 />
       </div>
     );
   }
