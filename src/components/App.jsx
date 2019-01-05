@@ -12,6 +12,7 @@ class App extends React.Component {
         <style jsx global>{`
                 .container {
                   display: flex;
+                  border: 1px solid black;
                 }
               `}
         </style>
