@@ -27,10 +27,13 @@ function ListOfThreeProducts() {
                 }
               }
 
-              @media only screen and (max-width: 899.9px) {
+              @media only screen and (max-width: 1021px) {
                 .listOfThreeProducts {
                   flex-direction: column;
                   height: 100%;
+                }
+                .products {
+                  width: 450px;
                 }
               }
         `}</style>
