@@ -23,6 +23,12 @@ function NavBar2() {
                 display: flex;
                 flex-direction: row;
               }
+              input {
+                border-style: none;
+                border: 1px solid black;
+                border-radius: 2px;
+                height: 35px;
+              }
         `}
       </style>
       <div id="logo"></div>
@@ -30,6 +36,9 @@ function NavBar2() {
         <a>MEN</a>
         <a>WOMEN</a>
         <a>KIDS</a>
+      </div>
+      <div>
+        <input id="seachBar" type="text" placeholder="search" />
       </div>
     </div>
   );
