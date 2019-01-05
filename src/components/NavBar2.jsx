@@ -10,6 +10,7 @@ function NavBar2() {
                 flex-direction: row;
                 width: 100%;
                 border: 1px solid black;
+                height: 70px;
               }
               #logo {
                 border-radius: 100%;
