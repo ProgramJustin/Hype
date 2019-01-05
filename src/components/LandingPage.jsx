@@ -13,6 +13,7 @@ class LandingPage extends React.Component {
         <style global jsx>{`
                 #landingPage {
                   display: flex;
+                  flex-direction: column;
                 }
           `}</style>
         <HeroLanding1 />
