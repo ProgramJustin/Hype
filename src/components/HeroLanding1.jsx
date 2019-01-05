@@ -11,6 +11,7 @@ function HeroLanding1() {
         `}</style>
         <div>
           <h1>Air Jordan 1</h1>
+          <div id="airJordanButton">Shop All</div>
         </div>
     </div>
   );
