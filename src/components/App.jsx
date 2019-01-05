@@ -14,6 +14,7 @@ class App extends React.Component {
                   display: flex;
                   border: 1px solid black;
                   height: 100vh;
+                  flex-direction: row;
                 }
               `}
         </style>
