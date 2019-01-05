@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar1 from './NavBar1';
+import NavBar2 from './NavBar2';
 
 class App extends React.Component {
 
@@ -17,13 +18,14 @@ class App extends React.Component {
                 }
                 .container {
                   display: flex;
+                  flex-direction: column;
                   border: 1px solid black;
                   height: 100vh;
-                  flex-direction: row;
                 }
               `}
         </style>
         <NavBar1 />
+        <NavBar2 />
       </div>
     );
   }
