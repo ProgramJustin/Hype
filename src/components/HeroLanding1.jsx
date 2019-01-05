@@ -20,6 +20,7 @@ function HeroLanding1() {
               border-radius: 2px;
               padding: 15px;
               background-color: white;
+              margin-top: 20px;
             }
         `}</style>
         <div id="contentContainerHero1">
