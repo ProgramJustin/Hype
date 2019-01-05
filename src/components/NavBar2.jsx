@@ -19,6 +19,7 @@ function NavBar2() {
                 width: 50px;
                 height: 50px;
                 background-color: gray;
+                margin-left: 20px;
               }
               #listItems {
                 display: flex;
@@ -29,6 +30,7 @@ function NavBar2() {
                 border: 1px solid black;
                 border-radius: 2px;
                 height: 35px;
+                margin-right: 40px
               }
         `}
       </style>
