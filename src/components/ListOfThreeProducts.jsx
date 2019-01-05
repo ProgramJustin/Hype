@@ -11,13 +11,27 @@ function ListOfThreeProducts() {
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                column-gap: 20px;
               }
               .products {
                 width: 400px;
                 height: 371px;
                 border: 1px solid gray;
                 margin: 20px;
+              }
+
+              @media only screen and (min-width: 900px) and (max-width: 1100px) {
+                .products {
+                  width: 400px;
+                  height: 321px;
+                  margin: 10px;
+                }
+              }
+
+              @media only screen and (max-width: 899.9px) {
+                .listOfThreeProducts {
+                  flex-direction: column;
+                  height: 100%;
+                }
               }
         `}</style>
       <div className="products"></div>
