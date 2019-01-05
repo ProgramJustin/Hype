@@ -11,11 +11,13 @@ function ListOfThreeProducts() {
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                column-gap: 20px;
               }
               .products {
                 width: 400px;
                 height: 371px;
                 border: 1px solid gray;
+                margin: 20px;
               }
         `}</style>
       <div className="products"></div>
