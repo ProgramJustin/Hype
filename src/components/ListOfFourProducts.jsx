@@ -19,14 +19,17 @@ function ListOfFourProducts() {
                 margin: 20px;
               }
 
-              @media only screen and (min-width: 900px) and (max-width: 1298px) {
+              @media only screen and (min-width: 1000px) and (max-width: 1200px) {
                 .listOfFourProducts {
                   flex-wrap: wrap;
                   height: 100%;
                 }
+                .products {
+                  flex: 1 450px;
+                }
               }
 
-              @media only screen and (max-width: 899.9px) {
+              @media only screen and (max-width: 999.9px) {
                 .listOfFourProducts {
                   flex-direction: column;
                   height: 100%;
