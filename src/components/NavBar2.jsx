@@ -30,7 +30,7 @@ function NavBar2() {
                 border: 1px solid black;
                 border-radius: 2px;
                 height: 35px;
-                margin-right: 40px
+                margin-right: 20px
               }
         `}
       </style>
