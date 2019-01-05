@@ -8,6 +8,12 @@ function HeroLanding1() {
               height: 525px;
               background-color: grey;
             }
+            #airJordanButton {
+              width: 75px;
+              border-radius: 2px;
+              padding: 15px;
+              background-color: white;
+            }
         `}</style>
         <div>
           <h1>Air Jordan 1</h1>
