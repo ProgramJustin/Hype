@@ -9,6 +9,9 @@ function HeroLanding1() {
               background-color: grey;
             }
         `}</style>
+        <div>
+          <h1>Air Jordan 1</h1>
+        </div>
     </div>
   );
 }
