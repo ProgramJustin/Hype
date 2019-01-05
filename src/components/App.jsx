@@ -13,6 +13,7 @@ class App extends React.Component {
                 .container {
                   display: flex;
                   border: 1px solid black;
+                  height: 100vh;
                 }
               `}
         </style>
