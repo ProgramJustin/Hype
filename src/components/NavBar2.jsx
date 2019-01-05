@@ -10,8 +10,15 @@ function NavBar2() {
                 flex-direction: row;
                 width: 100%;
               }
+              #logo {
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                background-color: gray;
+              }
         `}
       </style>
+      <div id="logo"></div>
     </div>
   );
 }
