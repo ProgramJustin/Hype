@@ -31,7 +31,6 @@ function Footer(){
           #footer .socialMediaContainer {
             display: flex;
             justify-content: center;
-            align-items: center;
             height: 241px;
           }
           #footer div .socialMedia {
@@ -39,6 +38,7 @@ function Footer(){
             width: 50px;
             height: 50px;
             background-color: gray;
+            margin-top: 10px;
             margin-left: 20px;
           }
 
