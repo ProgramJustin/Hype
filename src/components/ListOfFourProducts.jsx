@@ -14,12 +14,12 @@ function ListOfFourProducts() {
               }
               .products {
                 width: 320px;
-                height: 351px;
+                height: 371px;
                 border: 1px solid gray;
                 margin: 20px;
               }
 
-              @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+              @media only screen and (max-width: 1250px){
                 .listOfFourProducts {
                   flex-wrap: wrap;
                   height: 100%;
