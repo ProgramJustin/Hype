@@ -5,8 +5,16 @@ class HeroLanding1 extends React.Component {
   constructor(){
     super();
     this.state = {
-      backgroungImage: AirJordan
+      backgroundImage: AirJordan,
     };
+  }
+
+  componentWillMount(){
+    this.setBackground();
+  }
+  
+  setBackground(){
+    this.setState({backgroundImage: AirJordan});
   }
   render(){
     return(
@@ -18,6 +26,8 @@ class HeroLanding1 extends React.Component {
                 flex-direction: row;
                 justify-content: flex-end;
                 align-items: center;
+                background-image: url(${this.state.backgroundImage});
+                background-size: cover;
               }
               #contentContainerHero1 {
                 margin-right: 60px;
