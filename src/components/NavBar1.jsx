@@ -9,7 +9,6 @@ function NavBar1() {
                 flex-direction: column;
                 justify-content: flex-end;
                 align-items: center;
-                border: 1px solid black;
                 flex-direction: row;
                 height: 40px;
                 width: 100%;
