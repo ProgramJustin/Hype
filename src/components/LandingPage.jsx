@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroLanding1 from './HeroLanding1';
+import ListOfTwoProducts from './ListOfTwoProducts';
 import ListOfThreeProducts from './ListOfThreeProducts';
 import ListOfFourProducts from './ListOfFourProducts';
 class LandingPage extends React.Component {
@@ -22,6 +23,7 @@ class LandingPage extends React.Component {
         <HeroLanding1 />
         <ListOfFourProducts />
         <HeroLanding1 />
+        <ListOfTwoProducts />
       </div>
     );
   }
