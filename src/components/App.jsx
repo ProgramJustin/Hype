@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar1 from './NavBar1';
 import NavBar2 from './NavBar2';
 import LandingPage from './LandingPage';
+import Footer from './Footer';
 
 class App extends React.Component {
 
@@ -28,6 +29,7 @@ class App extends React.Component {
         <NavBar1 />
         <NavBar2 />
         <LandingPage />
+        <Footer />
       </div>
     );
   }
