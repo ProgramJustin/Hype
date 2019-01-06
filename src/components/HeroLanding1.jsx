@@ -1,4 +1,5 @@
 import React from 'react';
+import AirJordan from '../../public/AirJordanBackground.png'
 
 function HeroLanding1() {
   return(
@@ -6,7 +7,6 @@ function HeroLanding1() {
       <style global jsx>{`
             #heroLanding1 {
               height: 525px;
-              background-color: grey;
               display: flex;
               flex-direction: row;
               justify-content: flex-end;
