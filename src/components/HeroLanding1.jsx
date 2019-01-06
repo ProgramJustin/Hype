@@ -1,5 +1,5 @@
 import React from 'react';
-import AirJordan from '../../public/AirJordanBackground.png';
+import AirJordan from '../../public/AirJordanBackground.jpg';
 
 class HeroLanding1 extends React.Component {
   constructor(){
@@ -12,7 +12,7 @@ class HeroLanding1 extends React.Component {
   componentWillMount(){
     this.setBackground();
   }
-  
+
   setBackground(){
     this.setState({backgroundImage: AirJordan});
   }
@@ -31,6 +31,7 @@ class HeroLanding1 extends React.Component {
               }
               #contentContainerHero1 {
                 margin-right: 60px;
+                color: white;
               }
               #airJordanButton {
                 width: 75px;
@@ -38,6 +39,7 @@ class HeroLanding1 extends React.Component {
                 padding: 15px;
                 background-color: white;
                 margin-top: 20px;
+                color: black;
               }
           `}</style>
           <div id="contentContainerHero1">
