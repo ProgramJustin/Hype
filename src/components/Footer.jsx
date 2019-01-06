@@ -18,7 +18,7 @@ function Footer(){
             width: 100%;
           }
 
-          #footer div div {
+          #footer div .linkBox {
             display: flex;
             flex-direction: column;
             padding: 10px;
@@ -26,6 +26,20 @@ function Footer(){
           #footer div div a {
             margin-bottom: 15px;
             font-size: 13px;
+          }
+
+          #footer .socialMediaContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 241px;
+          }
+          #footer div .socialMedia {
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            background-color: gray;
+            margin-left: 20px;
           }
 
           @media only screen and (max-width: 799.9px) {
@@ -36,28 +50,29 @@ function Footer(){
           }
         `}</style>
       <div>
-        <div>
+        <div className="linkBox">
           <a>Find a Store</a>
           <a>Site Feedback</a>
         </div>
-        <div>
+        <div className="linkBox">
           <a>Get Help</a>
           <a>Shipping & Delivery</a>
           <a>Returns</a>
           <a>Payment Options</a>
           <a>Contact Us</a>
         </div>
-        <div>
+        <div className="linkBox">
           <a>About Hype</a>
           <a>News</a>
           <a>Careers</a>
         </div>
       </div>
 
-      <div>
-        <img src="" />
-        <img src="" />
-        <img src="" />
+      <div className="socialMediaContainer">
+        <div className="socialMedia"></div>
+        <div className="socialMedia"></div>
+        <div className="socialMedia"></div>
+        <div className="socialMedia"></div>
       </div>
     </div>
   );
