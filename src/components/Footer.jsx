@@ -9,6 +9,11 @@ function Footer(){
             border: 1px solid black;
             display: flex;
           }
+
+          #footer div {
+            height: 100%;
+            width: 100%;
+          }
         `}</style>
       <div>
         <div>
