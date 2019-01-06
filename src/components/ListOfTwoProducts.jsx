@@ -29,7 +29,7 @@ function ListOfTwoProducts() {
                 }
               }
 
-              @media only screen and (max-width: 800.9px) {
+              @media only screen and (max-width: 799.9px) {
                 .listOfTwoProducts {
                   flex-direction: column;
                   height: 100%;
