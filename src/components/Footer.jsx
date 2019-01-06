@@ -14,6 +14,11 @@ function Footer(){
             height: 100%;
             width: 100%;
           }
+
+          #footer div div {
+            display: flex;
+            border: 1px solid black;
+          }
         `}</style>
       <div>
         <div>
