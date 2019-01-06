@@ -11,7 +11,6 @@ function NavBar2() {
                 align-items: center;
                 justify-content: space-between;
                 width: 100%;
-                border: 1px solid black;
                 height: 70px;
               }
               #NavBar2 > div {
