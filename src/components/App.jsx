@@ -17,9 +17,6 @@ class App extends React.Component {
   componentWillMount(){
     this.handleSavingBackgrounds();
   }
-  componentDidMount(){
-    console.log(this.state);
-  }
   handleSavingBackgrounds(){
     console.log(backgrounds)
     this.setState({background: backgrounds});
@@ -43,7 +40,7 @@ class App extends React.Component {
         </style>
         <NavBar1 />
         <NavBar2 />
-        <LandingPage />
+        <LandingPage backgrounds={this.state.backgrounds}/>
         <Footer />
       </div>
     );
