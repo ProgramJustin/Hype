@@ -3,6 +3,7 @@ import NavBar1 from './NavBar1';
 import NavBar2 from './NavBar2';
 import LandingPage from './LandingPage';
 import Footer from './Footer';
+import backgrounds from './../constants/backgrounds';
 
 class App extends React.Component {
 
@@ -11,6 +12,17 @@ class App extends React.Component {
     this.state = {
       background: {}
     };
+  }
+
+  componentWillMount(){
+    this.handleSavingBackgrounds();
+  }
+  componentDidMount(){
+    console.log(this.state);
+  }
+  handleSavingBackgrounds(){
+    console.log(backgrounds)
+    this.setState({background: backgrounds});
   }
 
   render(){
