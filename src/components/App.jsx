@@ -40,7 +40,7 @@ class App extends React.Component {
         </style>
         <NavBar1 />
         <NavBar2 />
-        <LandingPage backgrounds={this.state.backgrounds}/>
+        <LandingPage backgrounds={this.state.background}/>
         <Footer />
       </div>
     );
