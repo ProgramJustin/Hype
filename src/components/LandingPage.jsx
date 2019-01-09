@@ -8,23 +8,7 @@ class LandingPage extends React.Component {
 
   constructor(props){
     super(props);
-    // this.state = {
-    //   backgrounds: {}
-    // }
   }
-
-  componentWillMount(){
-    // console.log(this.props);
-  }
-  // componentDidMount(){
-  //   console.log(this.state);
-  //   this.saveBackgrounds();
-  // }
-  //
-  // saveBackgrounds(){
-  //   this.setState({backgrounds: this.props.backgrounds});
-  // }
-
   render(){
     return(
       <div id="landingPage">
