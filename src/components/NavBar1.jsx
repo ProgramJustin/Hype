@@ -12,6 +12,8 @@ function NavBar1() {
                 flex-direction: row;
                 height: 40px;
                 width: 100%;
+                color: #646464;
+                border: .5px solid #646464;
               }
               a {
                 margin-left: 20px;
