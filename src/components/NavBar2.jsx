@@ -12,6 +12,7 @@ function NavBar2() {
                 justify-content: space-between;
                 width: 100%;
                 height: 70px;
+                border-bottom: .5px solid #646464;
               }
               #NavBar2 > div {
                 width: 100%;
