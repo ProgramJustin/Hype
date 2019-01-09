@@ -9,7 +9,9 @@ class LandingPage extends React.Component {
   constructor(props){
     super(props);
   }
+
   render(){
+
     return(
       <div id="landingPage">
         <style global jsx>{`
@@ -18,11 +20,11 @@ class LandingPage extends React.Component {
                   flex-direction: column;
                 }
           `}</style>
-        <HeroLanding1 airJordan={this.props.backgrounds.airJordan} />
+        <HeroLanding1 id="1" background={this.props.backgrounds.airJordan} />
         <ListOfThreeProducts />
-        <HeroLanding1 />
+        <HeroLanding1 id="2" background={this.props.backgrounds.pharell} />
         <ListOfFourProducts />
-        <HeroLanding1 />
+        <HeroLanding1 id="3" />
         <ListOfTwoProducts />
       </div>
     );
