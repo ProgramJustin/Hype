@@ -3,11 +3,27 @@ import HeroLanding1 from './HeroLanding1';
 import ListOfTwoProducts from './ListOfTwoProducts';
 import ListOfThreeProducts from './ListOfThreeProducts';
 import ListOfFourProducts from './ListOfFourProducts';
+
 class LandingPage extends React.Component {
 
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
+    // this.state = {
+    //   backgrounds: {}
+    // }
   }
+
+  componentWillMount(){
+    // console.log(this.props);
+  }
+  // componentDidMount(){
+  //   console.log(this.state);
+  //   this.saveBackgrounds();
+  // }
+  //
+  // saveBackgrounds(){
+  //   this.setState({backgrounds: this.props.backgrounds});
+  // }
 
   render(){
     return(
@@ -18,7 +34,7 @@ class LandingPage extends React.Component {
                   flex-direction: column;
                 }
           `}</style>
-        <HeroLanding1 />
+        <HeroLanding1 airJordan={this.props.backgrounds.airJordan} />
         <ListOfThreeProducts />
         <HeroLanding1 />
         <ListOfFourProducts />
