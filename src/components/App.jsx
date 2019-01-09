@@ -18,7 +18,6 @@ class App extends React.Component {
     this.handleSavingBackgrounds();
   }
   handleSavingBackgrounds(){
-    console.log(backgrounds)
     this.setState({background: backgrounds});
   }
 
