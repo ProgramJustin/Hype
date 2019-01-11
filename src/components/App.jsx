@@ -8,7 +8,6 @@ import fonts from './../../public/IBM_Plex_Sans/IBMPlexSans-Thin.ttf';
 
 class App extends React.Component {
 
-
   constructor(){
     super();
     this.state = {
@@ -17,7 +16,6 @@ class App extends React.Component {
   }
 
   componentWillMount(){
-    console.log(fonts);
     this.handleSavingBackgrounds();
   }
   handleSavingBackgrounds(){
