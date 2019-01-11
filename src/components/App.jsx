@@ -4,8 +4,10 @@ import NavBar2 from './NavBar2';
 import LandingPage from './LandingPage';
 import Footer from './Footer';
 import backgrounds from './../constants/backgrounds';
+import fonts from './../../public/IBM_Plex_Sans/IBMPlexSans-Thin.ttf';
 
 class App extends React.Component {
+
 
   constructor(){
     super();
@@ -15,6 +17,7 @@ class App extends React.Component {
   }
 
   componentWillMount(){
+    console.log(fonts);
     this.handleSavingBackgrounds();
   }
   handleSavingBackgrounds(){
@@ -28,6 +31,7 @@ class App extends React.Component {
                 * {
                   margin: 0;
                   padding: 0;
+                  font-family: 'IBM Plex Sans Light';
                 }
                 .container {
                   display: flex;
