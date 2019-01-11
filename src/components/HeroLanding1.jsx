@@ -39,7 +39,7 @@ class HeroLanding1 extends React.Component {
                 }
             `}</style>
             <div id="contentContainerHero1">
-              <h1>Air Jordan 1</h1>
+              <h1>{this.props.description}</h1>
               <div id="airJordanButton">Shop All</div>
             </div>
         </div>
