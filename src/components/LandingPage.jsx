@@ -20,9 +20,9 @@ class LandingPage extends React.Component {
                   flex-direction: column;
                 }
           `}</style>
-        <HeroLanding1 id="1" background={this.props.backgrounds.airJordan} />
+        <HeroLanding1 id="1" background={this.props.backgrounds.airJordan} description="Air Jordan 1"/>
         <ListOfThreeProducts />
-        <HeroLanding1 id="2" background={this.props.backgrounds.pharell} />
+        <HeroLanding1 id="2" background={this.props.backgrounds.pharell} description="PW Human Race NMD" />
         <ListOfFourProducts />
         <HeroLanding1 id="3" />
         <ListOfTwoProducts />
