@@ -1,4 +1,5 @@
 import React from 'react';
+import Product from './Product';
 
 function ListOfThreeProducts() {
   return(
@@ -37,9 +38,9 @@ function ListOfThreeProducts() {
                 }
               }
         `}</style>
-      <div className="products"></div>
-      <div className="products"></div>
-      <div className="products"></div>
+      <Product />
+      <Product />
+      <Product />
     </div>
   );
 }
