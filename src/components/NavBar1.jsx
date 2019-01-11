@@ -17,6 +17,7 @@ function NavBar1() {
               }
               a {
                 margin-left: 20px;
+                font-size: 13px;
               }
               #cart {
                 margin-right: 20px;
