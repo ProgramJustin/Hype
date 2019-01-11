@@ -30,6 +30,9 @@ function NavBar2() {
                 justify-content: center;
                 flex-direction: row;
               }
+              #listItems a {
+                font-size: 16px;
+              }
               #inputContainer {
                 justify-content: flex-end;
               }
