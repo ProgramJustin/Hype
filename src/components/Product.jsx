@@ -10,6 +10,8 @@ function Post(){
           height: 371px;
           border: 1px solid gray;
           margin: 20px;
+          display: flex;
+          flex-direction: column;
         }
         .imgContainer {
           width: inherit;
@@ -17,12 +19,28 @@ function Post(){
         .imgContainer img {
           width: inherit;
         }
+        #linkDescription {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          justify-content: center;
+          // align-items: center;
+          align-content: center;
+          border: 1px solid black;
+        }
+        #linkDescription:hover {
+          text-decoration: underline;
+        }
 
 
 
         `}</style>
       <div className="imgContainer">
         <img src={mock} />
+      </div>
+      <div id="linkDescription">
+        <a>Nike</a>
+        <a>Mens Shoe</a>
       </div>
     </div>
   );
