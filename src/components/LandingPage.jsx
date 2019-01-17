@@ -24,7 +24,7 @@ class LandingPage extends React.Component {
         <ListOfThreeProducts />
         <HeroLanding1 id="2" background={this.props.backgrounds.pharell} description="PW Human Race NMD" />
         <ListOfFourProducts />
-        <HeroLanding1 id="3" />
+        <HeroLanding1 id="3" background={this.props.backgrounds.airmax97sw} description="Nike Airmax 97 SW"/>
         <ListOfTwoProducts />
       </div>
     );
