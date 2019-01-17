@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class HeroLanding1 extends React.Component {
   constructor(props){
@@ -53,5 +54,9 @@ class HeroLanding1 extends React.Component {
     }
   }
 }
+
+HeroLanding1.PropTypes = {
+  description: PropTypes.string
+};
 
 export default HeroLanding1;
